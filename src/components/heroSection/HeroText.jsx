@@ -9,19 +9,19 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
+        className="lg:text-2xl sm:text-xl  uppercase text-white "
       >
-        Front-End Web Developer
+        Software Engineer
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-[#B2B7B8] font-bold uppercase"
       >
-        Abdelrahman <br className="sm:hidden md:block" />
-        Qassem
+        Elysee <br className="sm:hidden md:block" />
+        UDUKUNDA
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
@@ -30,8 +30,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Web Developer and Instructor <br /> with 3 years of
-        experience.
+       Software Engineer | Bachelor's in Computer Science | aspiring ML/AI Engineer | <br />
+        Bioinformatics | Data Science | Health Tech Enthusiast <br />  
       </motion.p>
     </div>
   );
