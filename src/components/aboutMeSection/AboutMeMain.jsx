@@ -22,7 +22,7 @@ const AboutMeMain = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.7 }}
       >
-      {/* <AboutMeImage /> */}
+      <AboutMeImage />
       </motion.div>
     </div>
   );
