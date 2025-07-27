@@ -33,7 +33,7 @@ const FooterMain = () => {
         </ul>
       </div>
       <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-white">
-        © 2024 Elysee UDUKUNDA | All Rights Reserved.
+        © 2025 Elysee UDUKUNDA | All Rights Reserved.
       </p>
     </div>
   );
